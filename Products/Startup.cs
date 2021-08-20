@@ -17,6 +17,9 @@ using System.Threading.Tasks;
 
 namespace Products
 {
+    /// <summary>
+    /// This is startup class
+    /// </summary>
     public class Startup
     {
         public Startup(IConfiguration configuration)

@@ -22,7 +22,10 @@ namespace Products.Controllers
         {
             _logger = logger;
         }
-
+        /// <summary>
+        /// this is git 
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
